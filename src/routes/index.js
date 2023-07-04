@@ -1,6 +1,6 @@
 import express from 'express';
 
-const router = express.Router
+const router = Router();
 
 router.get("/", function (req, res){
     res.status(200).send({
