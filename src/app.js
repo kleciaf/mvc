@@ -1,7 +1,7 @@
 import express, {json} from 'express';
 import index from './routes/index.js'
 import db from './config/dbConnect.js';
-import apis from './routes/apis.js';
+import apis from './routes/api.js';
 
 const app = express(); // esta variavel receber express, será usada em outros arquivos
 
